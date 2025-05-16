@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+.hero {
+    background-image: url("./bg.jpeg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.overlay {
+    background: rgb(0,0,0,0.4);
+    padding: 30px;
+    border-radius: 10px;
+}
+.search-box {
+margin-top: 20px;
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+ justify-content: center;
+
+}
+button {
+    background-color: #007ac2;
+  color: white;
+  cursor: pointer;
+
+}
+footer .buttons button{
+     margin: 5px;
+  padding: 10px 20px;
+}
